@@ -33,7 +33,7 @@ if "-u" in str(sys.argv[2]):
 			user = user.strip()
 			print "Checking user: " + str(user)
 			smtp_verfy(user)
-			sys.exit(0)
+			#sys.exit(0)
 
 elif "-U" in str(sys.argv[2]):
 	print "\n[*] Use '-u' for multiple users wordlist\n"
